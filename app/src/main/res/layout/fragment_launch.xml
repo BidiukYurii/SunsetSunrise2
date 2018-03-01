@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bidyuk.tasks.sunsetsunrise.Fragments.LaunchFragment">
+    <LinearLayout
+        android:id="@+id/launching_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="60dp"
+            android:src="@drawable/logo"
+            android:background="@null"/>
+        <TextView
+            android:id="@+id/choose_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="15dp"
+            android:text="@string/chose_tv_text" />
+        <Button
+            android:id="@+id/choos_place_btn"
+            style="@android:style/Widget.Holo.Button.Inset"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="?android:attr/colorMultiSelectHighlight"
+            android:text="@string/choose_btn_text"
+            android:textColor="#FFFF"/>
+    </LinearLayout>
+</RelativeLayout>
